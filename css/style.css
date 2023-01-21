@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
 }
+
 /*body general*/
 body {
     background: rgb(34, 108, 91);
@@ -19,6 +20,8 @@ body {
     grid-template-areas: "encabezado encabezado"
         "main aside"
         "pie_de_pagina pie_de_pagina";
+
+
 }
 
 
@@ -45,10 +48,14 @@ header {
     justify-content: center;
     align-items: center;
 }
-.logoBoxTM img{
+
+
+
+.logoBoxTM img {
     width: 30%;
 }
-.logoBoxTM h2{
+
+.logoBoxTM h2 {
     width: 50%;
 
     font-size: 500%;
@@ -134,6 +141,7 @@ main {
     border-radius: 30px;
     padding: 20px;
 }
+
 /*texto novedades*/
 .novedades {
     position: relative;
@@ -164,22 +172,22 @@ main {
 }
 
 
-.card{
+.card {
     background: rgba(212, 204, 204, 0.135);
     border-radius: 30px;
     padding: 20px;
     margin: 15px 0 15px 0;
 }
 
-#guitarra{
+#guitarra {
     width: 77%;
 }
 
-.card-body{
+.card-body {
     color: #fff;
 }
 
-.card-body .btn{
+.card-body .btn {
     background-color: #fff;
     color: black;
 }
@@ -187,9 +195,10 @@ main {
 
 /*aside*/
 
-aside{
+aside {
     grid-area: aside;
 }
+
 /*footer*/
 footer {
     grid-area: pie_de_pagina;
@@ -255,7 +264,7 @@ footer {
 
 /* boton de subir arriba*/
 
-.subir-arriba {       
+.subir-arriba {
     position: absolute;
     top: 0;
     right: 0;
@@ -269,6 +278,40 @@ footer {
     font-size: 40px;
     margin: 10px;
 }
+
+@media screen and (min-width: 1200px) {
+
+    header {
+        flex-direction: row;
+        margin-bottom: 200px;
+    }
+
+.contenido-presentacion{
+    flex-direction: row;
+    margin-bottom:200px ;
+}
+
+.texto-grande{
+    font-size: 6rem;
+}
+
+
+
+.novedades-texto{
+font-size: 6rem;
+margin-bottom: 100px;
+}
+.imagenes-gridd img{
+
+}
+
+#guitarra img{
+    width: 30%;
+}
+
+
+}
+
 
 
 
