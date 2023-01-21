@@ -173,12 +173,16 @@ main {
 
 
 .card {
+    display: flex;
+    flex-direction: column;
     background: rgba(212, 204, 204, 0.135);
     border-radius: 30px;
     padding: 20px;
     margin: 15px 0 15px 0;
 }
-
+.card img{
+    height: 80%;
+}
 #guitarra {
     width: 77%;
 }
@@ -279,34 +283,99 @@ footer {
     margin: 10px;
 }
 
-@media screen and (min-width: 1200px) {
+
+/*PRODUCTOS*/
+
+.titulo-productos {
+    display: flex;
+}
+
+.titulo-productos h1 {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    width: 100%;
+}
+
+.menu-lista {
+    background-color: #ffffff13;
+    border-radius: 35px;
+}
+
+.menu-lista nav ul li {
+    list-style-type: none;
+}
+
+.lista-links {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: black;
+    padding: 2px;
+}
+
+.titulo-recientes h2{
+    margin: 10%;
+    font-size: 3.5rem;
+    width: 90%;
+    margin-left: 20%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    align-items: center;
+}
+
+
+
+@media screen and (min-width: 1200px) {  /* modo pc */
+  /*index*/
 
     header {
         flex-direction: row;
         margin-bottom: 200px;
     }
 
-.contenido-presentacion{
-    flex-direction: row;
-    margin-bottom:200px ;
+    .contenido-presentacion {
+        flex-direction: row;
+        margin-bottom: 200px;
+    }
+
+    .texto-grande {
+        font-size: 6rem;
+    }
+
+
+
+    .novedades-texto {
+        font-size: 6rem;
+        margin-bottom: 100px;
+    }
+
+
+    #guitarra img {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+/*Productos*/
+
+.menu-lista {
+margin-left: 5%;
 }
 
-.texto-grande{
-    font-size: 6rem;
+.titulo-productos h1 {
+    font-size: 7rem;
 }
 
-
-
-.novedades-texto{
-font-size: 6rem;
-margin-bottom: 100px;
-}
-.imagenes-gridd img{
-
+.lista-links {
+    padding: 15px;
+    font-size:2rem ;
 }
 
-#guitarra img{
-    width: 30%;
+.titulo-recientes{
+margin: 10% 0 10px 0;
+}
+
+.titulo-recientes h2{
+    margin-left: 5%;
+    font-size: 6.5rem;
 }
 
 
