@@ -306,15 +306,7 @@ aside {
 
 /*PRODUCTOS*/
 
-.titulo-productos {
-    display: flex;
-}
 
-.titulo-productos h1 {
-    font-size: 3rem;
-    letter-spacing: 0.5rem;
-    width: 100%;
-}
 
 .menu-lista {
     background-color: #ffffff13;
@@ -350,6 +342,70 @@ aside {
     font-size: xx-large;
 }
 
+/*ACERCA DE NOSOTROS*/
+
+
+.nuestro-equipo-texto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.nuestro-equipo-texto img{
+    width: 90%;
+    border-radius: 25px;
+    margin: 15% 0 0 5%;
+}
+
+.nuestro-equipo-texto h2 {
+    font-size: 3.5rem;
+    width: 100%;
+    margin-left: 10%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    align-items: center;
+}
+
+
+.nuestro-equipo-texto p {
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 15px;
+    border-radius: 25px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin: 5%;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10% 0 0 25%;
+    width: 50%;
+}
+
+.comentarios p{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.comentarios cite {
+    font-style: normal;
+    font-size: 20px;
+}
+
+.nuestro-equipo-texto h3{
+    margin: 10% 0 0 15%;
+}
+
+#preguntas-frecuentes{
+    margin: 0 0 10% 25%;
+}
+
+
+
 
 @media screen and (min-width: 1200px) {  /* modo pc */
   /*index*/
@@ -368,8 +424,6 @@ aside {
         font-size: 6rem;
     }
 
-
-
     .novedades-texto {
         font-size: 6rem;
         margin-bottom: 100px;
@@ -387,9 +441,6 @@ aside {
 margin-left: 5%;
 }
 
-.titulo-productos h1 {
-    font-size: 7rem;
-}
 
 .lista-links {
     padding: 15px;
@@ -417,6 +468,66 @@ margin: 10% 0 10px 0;
     font-size: 55px;
     margin: 25px;
 }
+
+/*acerca de nosotros*/
+
+#acerca-texto{
+padding: 5%;
+margin: 15% 0 0 15%;
+}
+
+
+.nuestros-valores-objetivos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.nuestros-valores-objetivos h2 {
+    font-size: 3.5rem;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3.5px;
+
+
+}
+
+.nuestros-valores-objetivos p {
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 15px;
+    border-radius: 25px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nuestros-valores-objetivos div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.comentarios{
+    width: 100%;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.comentarios p{
+padding: 15%;
+}
+
+#nuestroequipo{
+    margin-left: 35%;
+}
+
+#preguntas-frecuentes{
+    margin: 0 0 0 30% ;
+}
+
+
+
 }
 
 
