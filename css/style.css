@@ -26,7 +26,7 @@ body {
 
 
 
-/*Header mobile*/
+/*Header*/
 
 header {
     grid-area: encabezado;
@@ -171,7 +171,6 @@ main {
     margin-top: 20px;
 }
 
-
 .card {
     display: flex;
     flex-direction: column;
@@ -195,6 +194,7 @@ main {
     background-color: #fff;
     color: black;
 }
+
 
 
 
@@ -229,7 +229,6 @@ footer {
     justify-content: center;
     margin: 1rem 0 3rem 0;
 }
-
 
 .socials li {
     margin: 0 10px;
@@ -270,7 +269,6 @@ aside {
     grid-area: aside;
 }
 
-
 /* boton de subir arriba*/
 .subir-arriba {
     position: absolute;
@@ -304,9 +302,8 @@ aside {
     z-index: 100;
 }
 
+
 /*PRODUCTOS*/
-
-
 
 .menu-lista {
     background-color: #ffffff13;
@@ -342,8 +339,8 @@ aside {
     font-size: xx-large;
 }
 
-/*ACERCA DE NOSOTROS*/
 
+/*ACERCA DE NOSOTROS*/
 
 .nuestro-equipo-texto {
     display: flex;
@@ -404,9 +401,138 @@ aside {
     margin: 0 0 10% 25%;
 }
 
+
+
+
+/*ACERCA DE NOSOTROS*/
+
+.nuestro-equipo-texto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.nuestro-equipo-texto img{
+    width: 90%;
+    border-radius: 25px;
+    margin: 15% 0 0 5%;
+}
+
+.nuestro-equipo-texto h2 {
+    font-size: 3.5rem;
+    width: 100%;
+    margin-left: 10%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    align-items: center;
+}
+
+
+.nuestro-equipo-texto p {
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 15px;
+    border-radius: 25px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin: 5%;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10% 0 0 25%;
+    width: 50%;
+}
+
+.comentarios p{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.comentarios cite {
+    font-style: normal;
+    font-size: 20px;
+}
+
+.nuestro-equipo-texto h3{
+    margin: 10% 0 0 15%;
+}
+
+#preguntas-frecuentes{
+    margin: 0 0 10% 25%;
+}
+
+
+
+
+/*ACERCA DE NOSOTROS*/
+
+.nuestro-equipo-texto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.nuestro-equipo-texto img{
+    width: 90%;
+    border-radius: 25px;
+    margin: 15% 0 0 5%;
+}
+
+.nuestro-equipo-texto h2 {
+    font-size: 3.5rem;
+    width: 100%;
+    margin-left: 10%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    align-items: center;
+}
+
+
+.nuestro-equipo-texto p {
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 15px;
+    border-radius: 25px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin: 5%;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10% 0 0 25%;
+    width: 50%;
+}
+
+.comentarios p{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.comentarios cite {
+    font-style: normal;
+    font-size: 20px;
+}
+
+.nuestro-equipo-texto h3{
+    margin: 10% 0 0 15%;
+}
+
+#preguntas-frecuentes{
+    margin: 0 0 10% 25%;
+}
+
+
+
+
 /*INGRESAR*/
-
-
 
 #ingresar{
     margin-left: 15%;
@@ -436,6 +562,7 @@ aside {
 }
 
 @media screen and (min-width: 1200px) {  /* modo pc */
+
   /*index*/
 
     header {
@@ -497,13 +624,13 @@ margin: 10% 0 10px 0;
     margin: 25px;
 }
 
+
 /*acerca de nosotros*/
 
 #acerca-texto{
 padding: 5%;
 margin: 15% 0 0 15%;
 }
-
 
 .nuestros-valores-objetivos {
     display: flex;
@@ -515,8 +642,6 @@ margin: 15% 0 0 15%;
     font-size: 3.5rem;
     font-family: 'Playfair Display', serif;
     letter-spacing: 3.5px;
-
-
 }
 
 .nuestros-valores-objetivos p {
@@ -554,11 +679,11 @@ padding: 15%;
     margin: 0 0 0 30% ;
 }
 
+
+/*ingresar*/
 #ingresar{
     margin-left: 50%;
 }
-
-
 
 .formulario-inicio{
     margin-left: 40%;
