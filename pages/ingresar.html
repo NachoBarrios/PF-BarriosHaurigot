@@ -52,278 +52,50 @@
 
     <main class="container">
 
-        <section class="titulo-productos row-cols-7"> <!--Titulo inicial-->
-            <div>
-                <h1>PRODUCTOS</h1>
+        <section>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-7">
+                        
+                        <h1 id="ingresar" class="texto-grande">INGRESAR</h1>
+
+                        <form class="formulario-inicio"> <!--formulario inicio sesion, no puse labels porque me parecia mas estetico-->
+
+                            <div class="form-row">
+                                <div class="col-lg-12">
+                                    <input type="email" placeholder="Direccion e-mail" class="form-control my-5 p-3" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-lg-12">
+                                    <input type="password" placeholder="*********" class="form-control my-5 p-3" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-lg-12">
+                                    <button type="submit" class="boton-iniciar mt-3 mb-5">Iniciar Sesion</button>
+                                </div>
+                            </div>
+
+
+                            <a href="#">Olvidaste la contraseña ?</a>
+                            <p>No tenes una cuenta ? <a href="../pages/registrarse.html">Registrarse aqui</a></p>
+                        </form>
+                    </div>
+                </div>
+
             </div>
-
-            <div class="menu-lista"> <!--menu acceso rapido-->
-                <nav>
-                    <ul>
-                        <li><a href="#mas-vendidos" class="lista-links">-Mas vendidos-</a></li>
-                        <li><a href="#ofertas" class="lista-links">-Ofertas-</a></li>
-                        <li><a href="#interesarte" class="lista-links">-Pueden llegar a interesarte-</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-        </section>
-
-
-        <div class="titulo-recientes row"> <!--recientemente añadidos-->
-            <h2>Recintemente añadidos</h2>
-        </div>
-        <section class="imagenes-gridd row">
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/aurisapple.png" class="card-img-top" alt="Auriculares Apple">
-                    <div class="card-body">
-                        <h2 class="card-title">AirPods</h2>
-                        <h3>$97,000</h3>
-                        <p class="card-text">Los AirPods son unos auriculares inalámbricos diseñados y fabricados por
-                            Apple.
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/headset.png" class="card-img-top" alt="Headset Beats">
-                    <div class="card-body">
-                        <h2 class="card-title">Headset Beats</h2>
-                        <h3>$17,000</h3>
-                        <p class="card-text">Cuentan con tecnología de cancelación de ruido y una batería de larga
-                            duración, lo que los
-                            hace ideales para usar en movimiento o en entornos ruidosos.
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/covers.png" class="card-img-top" alt="Zapatillas Converse">
-                    <div class="card-body">
-                        <h2 class="card-title">Zapatillas Converse</h2>
-                        <h3>$27,000</h3>
-                        <p class="card-text">LSon una marca de calzado deportivo conocida por su estilo único y
-                            atemporal, reconocidas por su silueta clásica, así como por sus
-                            colores llamativos y diseños personalizados.
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/jansport.png" class="card-img-top" alt="Mochila jansport">
-                    <div class="card-body">
-                        <h2 class="card-title">Mochila Jansport</h2>
-                        <h3>$10,000</h3>
-                        <p class="card-text">Tienen un diseño clásico y una construcción resistente, y suelen tener
-                            compartimentos grandes
-                            y espaciosos para almacenar todas tus cosas.
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
         </section>
 
 
 
-        <div id="mas-vendidos" class="titulo-recientes row"> <!--Mas Vendidos-->
-            <h2>Mas Vendidos</h2>
-        </div>
-        <section class="imagenes-gridd row">
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/lamparalava.png" class="card-img-top" alt="Lampara de Lava">
-                    <div class="card-body">
-                        <h2 class="card-title">Lampara</h2>
-                        <h3>$110,000</h3>
-                        <p class="card-text">Son un tipo de decoración que consiste en un recipiente transparente con
-                            una mezcla de
-                            líquidos y sólidos que se calientan y se mueven dentro del recipiente de manera lenta y
-                            fluida, creando un efecto de luz y movimiento.
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/legostarwars.png" class="card-img-top" alt="Lego Star Wars">
-                    <div class="card-body">
-                        <h2 class="card-title">Lego Star Wars</h2>
-                        <h3>$90,000</h3>
-                        <p class="card-text">Juguete Lego.
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/mesa.png" class="card-img-top" alt="Mesa de madera">
-                    <div class="card-body">
-                        <h2 class="card-title">Mesa de madera</h2>
-                        <h3>$30,000</h3>
-                        <p class="card-text">Una mesa de madera para el living comedor.
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/padymouse.png" class="card-img-top" alt="Pad y Mouse Gamer">
-                    <div class="card-body">
-                        <h2 class="card-title">Pad y Mouse</h2>
-                        <h3>$10,000</h3>
-                        <p class="card-text">Un combo de pad y mouse gamer
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
-        </section>
-
-
-
-        <div id="ofertas" class="titulo-recientes row">
-            <h2>Ofertas</h2> <!--Ofertas-->
-        </div>
-        <section class="imagenes-gridd row">
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/parlante.png" class="card-img-top" alt="Parlante JBL">
-                    <div class="card-body">
-                        <h2 class="card-title">Parlante JBL</h2>
-                        <h3>$20,000</h3>
-                        <p class="card-text">Parlante ahora en oferta.
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/peny.png" class="card-img-top" alt="Skate Penny">
-                    <div class="card-body">
-                        <h2 class="card-title">Mini-Skate</h2>
-                        <h3>$40,000</h3>
-                        <p class="card-text">Skate ahora en descuento, especial para niños o personas con pies chicos.
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/perrotrucho.png" class="card-img-top" alt="Un perro">
-                    <div class="card-body">
-                        <h2 class="card-title">Perro Trucho</h2>
-                        <h3>$1,000,000</h3>
-                        <p class="card-text">Esta en oferta.
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/pianoelectrico.png" class="card-img-top"
-                        alt="Piano electrico">
-                    <div class="card-body">
-                        <h2 class="card-title">Piano electrico</h2>
-                        <h3>$100,000</h3>
-                        <p class="card-text">Es como un piano normal pero electrico. Un oferton.
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-            </article>
-
-        </section>
-
-
-        <div id="interesarte" class="titulo-recientes row"> <!--Pueden interesarte-->
-            <h2>Pueden Interesarte</h2>
-        </div>
-        <section class="imagenes-gridd row">
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/reloj.png" class="card-img-top" alt="Reloj">
-                    <div class="card-body">
-                        <h2 class="card-title">Smartwatch</h2>
-                        <h3>$200,000</h3>
-                        <p class="card-text">Smartwatch marca apple, poder ver twitch desde la muñeca.
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/ruedas.png" class="card-img-top" alt="Ruedas">
-                    <div class="card-body">
-                        <h2 class="card-title">Ruedas para camioneta</h2>
-                        <h3>$100,000</h3>
-                        <p class="card-text">Ruedas para camioneta 4x4.
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/tazanegra.png" class="card-img-top" alt="Taza negra">
-                    <div class="card-body">
-                        <h2 class="card-title">Taza</h2>
-                        <h3>$1,000</h3>
-                        <p class="card-text">Taza negra que brilla en la oscuridad
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="col-sm-12 col-xl-6 d-flex justify-content-center"><!--Card-->
-                <div class="card">
-                    <img src="../assets/imagenes-productos/ventilador.png" class="card-img-top" alt="Ventilador">
-                    <div class="card-body">
-                        <h2 class="card-title">Ventilador</h2>
-                        <h3>$10,000</h3>
-                        <p class="card-text">Ventilador de piso, no hace mucho ruido y es ligero, tampoco tira mucho
-                            aire.
-                        </p>
-                        <a href="../pages/productos.html" class="btn btn-primary">COMPRA YA</a>
-                    </div>
-                </div>
-            </article>
-
-        </section>
 
     </main>
-
 
 
     <aside>
@@ -343,7 +115,6 @@
     </aside>
 
 
-
     <footer> <!--footer-->
         <div class="footer-content">
             <ul class="socials">
@@ -357,10 +128,6 @@
             <p>copyright &copy;2020 Box™</p>
         </div>
     </footer>
-
-
-
-
 
 
     <!-- Modal -->
