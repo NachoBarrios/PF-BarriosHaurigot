@@ -1,0 +1,11 @@
+body {
+	background: radial-gradient(circle, rgba(34, 108, 91, 1) 0%, rgba(101, 9, 121, 1) 35%, rgba(147, 88, 56, 1) 59%, rgba(50, 210, 244, 1) 100%);
+	@include gradient-animation;
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: grid;
+	grid-template-columns: 15fr 1fr;
+	grid-template-areas: "encabezado encabezado" "main aside" "pie_de_pagina pie_de_pagina";
+	overflow-x: hidden;
+}

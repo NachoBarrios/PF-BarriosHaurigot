@@ -1,0 +1,16 @@
+.logoBoxTM {
+    display: flex;
+	text-decoration: none;
+	color: $color_1;
+	letter-spacing: 2.5px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	img {
+        width: 30%;
+	}
+	h2 {
+        width: 50%;
+		font-size: 500%;
+	}
+}

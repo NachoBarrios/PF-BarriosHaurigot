@@ -1,0 +1,11 @@
+.presentacion {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.contenido-presentacion {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+}
