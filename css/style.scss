@@ -145,20 +145,6 @@ aside {
 		margin: 10px;
 	}
 }
-.carrito {
-	position: absolute;
-	top: 0;
-	right: 0;
-	height: 100%;
-	button {
-		position: sticky;
-		top: 71vh;
-		cursor: pointer;
-		font-size: 20px;
-		margin: 5px;
-		z-index: 100;
-	}
-}
 .menu-lista {
 	background-color: $background-color_4;
 	border-radius: 35px;
@@ -186,13 +172,6 @@ aside {
 		font-weight: 600;
 		align-items: center;
 	}
-}
-.modal-content {
-	background-color: $background-color_5;
-}
-.modal-header {
-	font-weight: 600;
-	font-size: xx-large;
 }
 .nuestro-equipo-texto {
 	display: flex;

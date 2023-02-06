@@ -295,22 +295,6 @@ aside {
   margin: 10px;
 }
 
-.carrito {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-}
-.carrito button {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 71vh;
-  cursor: pointer;
-  font-size: 20px;
-  margin: 5px;
-  z-index: 100;
-}
-
 .menu-lista {
   background-color: rgba(255, 255, 255, 0.0745098039);
   border-radius: 35px;
@@ -334,15 +318,6 @@ aside {
   font-family: "Playfair Display", serif;
   font-weight: 600;
   align-items: center;
-}
-
-.modal-content {
-  background-color: #7f4078;
-}
-
-.modal-header {
-  font-weight: 600;
-  font-size: xx-large;
 }
 
 .nuestro-equipo-texto {
