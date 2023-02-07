@@ -1,0 +1,41 @@
+.boton-iniciar {
+	border: none;
+	outline: none;
+	height: 50px;
+	width: 100%;
+	background-color: $background-color_7;
+	color: $color_5;
+	border-radius: 10px;
+	font-weight: bold;
+	opacity: 0.6;
+	transition: all 0.6s ease 0s;
+	&:hover {
+		transform: scale(1.07);
+		transition: all 0.6s ease 0s;
+		opacity: 2;
+		background-color: $background-color_5;
+		border: solid 1px black;
+		color: $color_1;
+	}
+}
+
+.boton-enviar {
+	border: none;
+	outline: none;
+	height: 50px;
+	width: 100%;
+	background-color: $background-color_8;
+	color: $color_2;
+	border-radius: 10px;
+	font-weight: bold;
+	opacity: 0.6;
+	transition: all 0.6s ease 0s;
+	&:hover {
+		background-color: $background-color_9;
+		border: solid 1px rgb(255, 255, 255);
+		color: $color_6;
+		transform: scale(1.07);
+		transition: all 0.6s ease 0s;
+		opacity: 2;
+	}
+}

@@ -1,0 +1,13 @@
+.subir-arriba {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	a {
+		position: sticky;
+		top: 90vh;
+		cursor: pointer;
+		font-size: 45px;
+		margin: 10px;
+	}
+}

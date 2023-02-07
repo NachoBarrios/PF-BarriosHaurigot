@@ -1,3 +1,18 @@
 main {
 	grid-area: main;
 }
+
+footer {
+	grid-area: pie_de_pagina;
+	background-color: $background-color_3;
+	height: auto;
+	width: 100vw;
+	font-family: map-get($fuentes , secundario);
+	padding-top: 40px;
+	color: $color_3;
+	margin-top: 5rem;
+}
+
+aside {
+	grid-area: aside;
+}

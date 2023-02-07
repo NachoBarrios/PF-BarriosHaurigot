@@ -1,0 +1,21 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	background: rgba(212, 204, 204, 0.135);
+	border-radius: 30px;
+	padding: 20px;
+	margin: 15px 0 15px 0;
+	img {
+		height: 80%;
+	}
+}
+#guitarra {
+	width: 77%;
+}
+.card-body {
+	color: $color_3;
+	.btn {
+		background-color: $background-color_2;
+		color: $color_2;
+	}
+}

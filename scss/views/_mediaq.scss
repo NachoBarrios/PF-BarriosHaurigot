@@ -1,0 +1,131 @@
+
+@media screen and (min-width: 1200px) {
+	header {
+		flex-direction: row;
+		margin-bottom: 200px;
+		nav{
+			ul{
+				li{
+					a{
+						font-size: medium;
+					}
+				}
+			}
+		}
+	}
+	.navegacion{
+		flex-direction: row;
+		width: 96%;
+		height: 0;
+	}
+	.navegacion1{
+		display: flex;
+	
+	}
+	.contenido-presentacion {
+		flex-direction: row;
+		margin-bottom: 200px;
+	}
+	.texto-grande {
+		font-size: 7rem;
+	}
+	.novedades-texto {
+		font-size: 6rem;
+		margin-bottom: 100px;
+	}
+	#guitarra {
+		img {
+			width: 30%;
+			margin-left: 35%;
+		}
+	}
+	
+	.card-img-top{
+		width: 95%;
+		padding:0% ;
+	}
+
+	.menu-lista {
+		margin-top:2% ;
+		margin-bottom: 20%;
+	}
+	.lista-links {
+		font-size: 1rem;
+	}
+
+
+	.titulo-recientes {
+		margin: 0% 0 10px 0;
+		h2 {
+			margin-left: 13%;
+			font-size: 4.5rem;
+		}
+	}
+
+	.subir-arriba {
+		a {
+			top: 90vh;
+			font-size: 55px;
+			margin: 25px;
+		}
+	}
+	#acerca-texto {
+		padding: 5%;
+		margin: 15% 0 0 15%;
+	}
+	.nuestros-valores-objetivos {
+		display: flex;
+		flex-direction: row;
+		margin-top: 100px;
+		h2 {
+			font-size: 3.5rem;
+			font-family: map-get($fuentes , secundario);
+			letter-spacing: 3.5px;
+		}
+		p {
+			background-color: $background-color_6;
+			padding: 15px;
+			border-radius: 25px;
+			font-family: map-get($fuentes , secundario);
+			font-size: 20px;
+			text-align: center;
+		}
+		div {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+	}
+	.comentarios {
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 0;
+		p {
+			padding: 15%;
+		}
+	}
+	#nuestroequipo {
+		margin-left: 35%;
+	}
+	#preguntas-frecuentes {
+		margin: 0 0 0 30%;
+	}
+	#ingresar {
+		margin-left: 50%;
+	}
+	.formulario-inicio {
+		margin-left: 40%;
+		width: 100%;
+	}
+	#registrarse {
+		margin-left: 35%;
+	}
+	#contactanos {
+		margin: 0 0 7% 20%;
+	}
+	.navbar{
+		display: none;
+	}
+}

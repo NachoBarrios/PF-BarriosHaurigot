@@ -1,0 +1,69 @@
+.texto-grande {
+	font-size: 5rem;
+	letter-spacing: 0.5rem;
+	width: 100%;
+	text-align: left;
+}
+.texto-de-presentacion {
+	width: 100%;
+	display: flex;
+	font-family: map-get($fuentes , secundario);
+	font-size: 1.1rem;
+	font-weight: 700;
+	opacity: 1;
+	margin-top: 20px;
+	justify-content: center;
+	background-color: $background-color_1;
+	border-radius: 30px;
+	padding: 20px;
+}
+
+.novedades-texto {
+	font-size: 4rem;
+	font-weight: 600;
+	letter-spacing: 1rem;
+	font-family: map-get($fuentes , secundario);
+}
+
+.titulo-recientes {
+	h2 {
+		margin: 10%;
+		font-size: 3.5rem;
+		width: 90%;
+		margin-left: 20%;
+		font-family: map-get($fuentes , secundario);
+		font-weight: 600;
+		align-items: center;
+	}
+}
+
+.nuestro-equipo-texto {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 10%;
+	img {
+		border-radius: 25px;
+		width: 90%;
+		margin: 15% 0 0 5%;
+	}
+	h2 {
+		font-size: 3.5rem;
+		width: 100%;
+		margin-left: 10%;
+		font-family: map-get($fuentes , secundario);
+		font-weight: 600;
+		align-items: center;
+	}
+	p {
+		background-color: $background-color_6;
+		padding: 15px;
+		border-radius: 25px;
+		font-family: map-get($fuentes , secundario);
+		font-size: 20px;
+		margin: 5%;
+	}
+	h3 {
+		margin: 10% 0 0 15%;
+	}
+}

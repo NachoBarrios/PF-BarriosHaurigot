@@ -43,7 +43,37 @@
             </a>
         </div>
 
-        <nav class="navegacion1"><!-- barra de navegacion -->
+        <div><!-- barra de navegacion mobile-->
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+
+                        <div class="offcanvas-body"> <!-- los items del navbar-->
+                            <ul class="navegacion">
+                                <!--saque el boton inicio en el inicio, me parecia al pedo y mejor esteticamente-->
+                                <li><a class="nav-hover" href="./pages/productos.html">Productos</a></li>
+                                <li><a class="nav-hover" href="./pages/contactanos.html">Contactanos</a></li>
+                                <li><a class="nav-hover" href="./pages/acercadenosotros.html">Nosotros</a></li>
+                                <li><a class="nav-hover" href="./pages/ingresar.html">Ingresar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <nav class="navegacion1"><!-- barra de navegacion desktop -->
             <ul class="navegacion"> <!--saque el boton inicio en el inicio, me parecia al pedo y mejor esteticamente-->
                 <li><a class="nav-hover" href="./pages/productos.html">Productos</a></li>
                 <li><a class="nav-hover" href="./pages/contactanos.html">Contactanos</a></li>

@@ -1,0 +1,17 @@
+.menu-lista {
+	background-color: $background-color_4;
+	border-radius: 35px;
+	nav {
+		ul {
+			li {
+				list-style-type: none;
+			}
+		}
+	}
+}
+.lista-links {
+	font-family: map-get($fuentes , secundario);
+	font-weight: 900;
+	color: $color_1;
+	padding: 2px;
+}

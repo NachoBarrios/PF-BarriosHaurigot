@@ -1,14 +1,17 @@
 .navegacion1 {
 	width: 100%;
+	display: none;
 }
 .navegacion {
+	height: 90vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
 	position: relative;
 	text-align: center;
 	list-style-type: none;
-	width: 96%;
+	width: 100%;
 }
 .nav-hover {
 	display: flex;
@@ -19,4 +22,8 @@
 		transition: all 0.6s ease 0s;
 		opacity: 2;
 	}
+}
+
+.offcanvas{ 
+ background-color: $background-color_10;
 }
