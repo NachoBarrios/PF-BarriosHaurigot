@@ -130,7 +130,8 @@ header nav ul li a {
   align-items: center;
 }
 .logoBoxTM img {
-  width: 30%;
+  width: 120px;
+  height: 120px;
 }
 .logoBoxTM h2 {
   width: 50%;
