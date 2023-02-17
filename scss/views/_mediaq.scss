@@ -3,52 +3,86 @@
 	header {
 		flex-direction: row;
 		margin-bottom: 200px;
-		nav{
-			ul{
-				li{
-					a{
+
+		nav {
+			ul {
+				li {
+					a {
 						font-size: medium;
 					}
 				}
 			}
 		}
 	}
-	.navegacion{
+
+	.navegacion {
 		flex-direction: row;
 		width: 96%;
 		height: 0;
 	}
-	.navegacion1{
+
+	.navegacion1 {
 		display: flex;
-	
+
 	}
+
 	.contenido-presentacion {
 		flex-direction: row;
 		margin-bottom: 200px;
 	}
+
 	.texto-grande {
 		font-size: 7rem;
 	}
+
 	.novedades-texto {
 		font-size: 6rem;
 		margin-bottom: 100px;
 	}
+
 	#guitarra {
-		img {
-			width: 30%;
-			margin-left: 35%;
-		}
+		width: 40%;
+		margin-left: 30%;
 	}
+
+	#iphone14 {
+		width: 130%;
+		margin-left: 0;
+	}
+
+	#imagenmobile{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	#lego{
 	
-	.card-img-top{
+		margin: 20% 0 90% 0;
+	}
+	#mesamadera{
+		width: 110%;
+	}
+	#reloj{
+		width: 110%;
+	}
+
+	#licuadora{
+		width: 130%;
+		padding: 5%;
+	}
+	.card {
 		width: 95%;
-		padding:0% ;
+
+		&-body {
+			padding: 15px;
+		}
 	}
 
 	.menu-lista {
-		margin-top:2% ;
+		margin-top: 2%;
 		margin-bottom: 20%;
 	}
+
 	.lista-links {
 		font-size: 1rem;
 	}
@@ -56,6 +90,7 @@
 
 	.titulo-recientes {
 		margin: 0% 0 10px 0;
+
 		h2 {
 			margin-left: 13%;
 			font-size: 4.5rem;
@@ -66,15 +101,18 @@
 		padding: 5%;
 		margin: 15% 0 0 15%;
 	}
+
 	.nuestros-valores-objetivos {
 		display: flex;
 		flex-direction: row;
 		margin-top: 100px;
+
 		h2 {
 			font-size: 3.5rem;
 			font-family: map-get($fuentes , secundario);
 			letter-spacing: 3.5px;
 		}
+
 		p {
 			background-color: $background-color_6;
 			padding: 15px;
@@ -83,6 +121,7 @@
 			font-size: 20px;
 			text-align: center;
 		}
+
 		div {
 			display: flex;
 			flex-direction: column;
@@ -90,35 +129,44 @@
 			align-items: center;
 		}
 	}
+
 	.comentarios {
 		width: 100%;
 		flex-direction: row;
 		justify-content: space-between;
 		margin: 0;
+
 		p {
 			padding: 15%;
 		}
 	}
+
 	#nuestroequipo {
 		margin-left: 35%;
 	}
+
 	#preguntas-frecuentes {
 		margin: 0 0 0 30%;
 	}
+
 	#ingresar {
 		margin: 0 0 25% 40%;
 	}
+
 	.formulario-inicio {
 		margin-left: 40%;
 		width: 100%;
 	}
+
 	#registrarse {
 		margin: 0 0 25% 32%;
 	}
+
 	#contactanos {
 		margin: 0 0 7% 0;
 	}
-	.navbar{
+
+	.navbar {
 		display: none;
 	}
 }

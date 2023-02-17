@@ -51,6 +51,32 @@
   opacity: 0.9;
 }
 
+/*TODOS LOS ID DEL PROYECTO*/
+/*id de NOSOTROS*/
+#preguntas-frecuentes {
+  margin: 0 0 10% 25%;
+}
+
+/*id de las imagenes*/
+#guitarra {
+  width: 60%;
+  margin-left: 20%;
+}
+
+#iphone14 {
+  margin-left: 15%;
+}
+
+#imagenmobile {
+  width: 60%;
+  margin-left: 20%;
+}
+
+#mesa {
+  width: 80%;
+  margin-left: 12%;
+}
+
 /*EL RESET*/
 * {
   margin: 0;
@@ -316,11 +342,11 @@ footer {
 }
 
 .card-body {
-  color: #fff;
+  color: black;
 }
 .card-body .btn {
   background-color: #fff;
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 /*FOOTER GENERAL*/
@@ -471,13 +497,36 @@ footer {
     font-size: 6rem;
     margin-bottom: 100px;
   }
-  #guitarra img {
-    width: 30%;
-    margin-left: 35%;
+  #guitarra {
+    width: 40%;
+    margin-left: 30%;
   }
-  .card-img-top {
+  #iphone14 {
+    width: 130%;
+    margin-left: 0;
+  }
+  #imagenmobile {
+    width: 90%;
+    margin-left: 5%;
+  }
+  #lego {
+    margin: 20% 0 90% 0;
+  }
+  #mesamadera {
+    width: 110%;
+  }
+  #reloj {
+    width: 110%;
+  }
+  #licuadora {
+    width: 130%;
+    padding: 5%;
+  }
+  .card {
     width: 95%;
-    padding: 0%;
+  }
+  .card-body {
+    padding: 15px;
   }
   .menu-lista {
     margin-top: 2%;
