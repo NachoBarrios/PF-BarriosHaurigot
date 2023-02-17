@@ -1,14 +1,6 @@
-@-webkit-keyframes gradient {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
-}
+/*Import de Variables de COLORES*/
+/*Import de Variables de Fuentes*/
+/*Import de Mixins de la Animaciond de fondo*/
 @keyframes gradient {
   0% {
     background-position: 0% 0%;
@@ -18,23 +10,6 @@
   }
   100% {
     background-position: 0% 0%;
-  }
-}
-@-webkit-keyframes wave {
-  2% {
-    transform: translateX(1);
-  }
-  25% {
-    transform: translateX(-25%);
-  }
-  50% {
-    transform: translateX(-50%);
-  }
-  75% {
-    transform: translateX(-25%);
-  }
-  100% {
-    transform: translateX(1);
   }
 }
 @keyframes wave {
@@ -60,8 +35,7 @@
   position: fixed;
   width: 200%;
   height: 12em;
-  -webkit-animation: wave 10s -3s linear infinite;
-          animation: wave 10s -3s linear infinite;
+  animation: wave 10s -3s linear infinite;
   transform: translate3d(0, 0, 0);
   opacity: 0.8;
   left: 0;
@@ -79,6 +53,7 @@
   opacity: 0.9;
 }
 
+/*Import de Los Keyframes*/
 * {
   margin: 0;
   padding: 0;
@@ -86,10 +61,10 @@
   font-family: "Oswald", sans-serif;
 }
 
+/*Import del RESET*/
 body {
   background: radial-gradient(circle, rgb(34, 108, 91) 0%, rgb(101, 9, 121) 35%, rgb(147, 88, 56) 59%, rgb(50, 210, 244) 100%);
-  -webkit-animation: gradient 25s ease infinite;
-          animation: gradient 25s ease infinite;
+  animation: gradient 25s ease infinite;
   background-size: 400% 400%;
   background-attachment: fixed;
   position: relative;
@@ -97,10 +72,11 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-columns: 15fr 1fr;
-  grid-template-areas: "encabezado encabezado" "main aside" "pie_de_pagina pie_de_pagina";
+  grid-template-areas: "encabezado" "main" "pie_de_pagina";
   overflow-x: hidden;
 }
 
+/*Import deL body general*/
 header {
   grid-area: encabezado;
   justify-content: space-evenly;
@@ -120,6 +96,7 @@ header nav ul li a {
   font-size: x-large;
 }
 
+/*Import del HEADER*/
 .logoBoxTM {
   display: flex;
   text-decoration: none;
@@ -130,14 +107,15 @@ header nav ul li a {
   align-items: center;
 }
 .logoBoxTM img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
 .logoBoxTM h2 {
   width: 50%;
-  font-size: 500%;
+  font-size: 70px;
 }
 
+/*Import deL LOGO*/
 .navegacion1 {
   width: 100%;
   display: none;
@@ -170,6 +148,7 @@ header nav ul li a {
   background-color: rgba(95, 92, 92, 0.824);
 }
 
+/*Import de la NAVEGACION*/
 main {
   grid-area: main;
 }
@@ -189,6 +168,7 @@ aside {
   grid-area: aside;
 }
 
+/*Import del Layout del GRID*/
 .presentacion {
   display: flex;
   justify-content: center;
@@ -207,7 +187,6 @@ aside {
   justify-content: space-evenly;
   width: 100%;
   margin-top: 20px;
-  margin-left: 5%;
 }
 
 .imagenes-gridd {
@@ -238,11 +217,12 @@ aside {
   font-size: 20px;
 }
 
+/*Import del Layout de FLEX*/
 .texto-grande {
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: 0.5rem;
   width: 100%;
-  text-align: left;
+  text-align: center;
 }
 
 .texto-de-presentacion {
@@ -307,6 +287,7 @@ aside {
   margin: 10% 0 0 15%;
 }
 
+/*Import de los TEXTOS*/
 .card {
   display: flex;
   flex-direction: column;
@@ -331,6 +312,7 @@ aside {
   color: rgb(0, 0, 0);
 }
 
+/*Import de los CARDS*/
 .footer-content {
   display: flex;
   align-items: center;
@@ -372,6 +354,7 @@ aside {
   text-transform: capitalize;
 }
 
+/*Import del FOOTER*/
 .menu-lista {
   background-color: rgba(255, 255, 255, 0.0745098039);
   border-radius: 35px;
@@ -387,21 +370,7 @@ aside {
   padding: 2px;
 }
 
-.subir-arriba {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-}
-.subir-arriba a {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 90vh;
-  cursor: pointer;
-  font-size: 45px;
-  margin: 10px;
-}
-
+/*Import deL menu lista de PRODUCTOS*/
 #preguntas-frecuentes {
   margin: 0 0 10% 25%;
 }
@@ -410,6 +379,7 @@ aside {
   margin-left: 15%;
 }
 
+/*Import de los IDS #*/
 .boton-iniciar {
   border: none;
   outline: none;
@@ -452,6 +422,7 @@ aside {
   opacity: 2;
 }
 
+/*Import de los BOTONES*/
 .formulario-inicio {
   background-color: rgba(255, 255, 255, 0.06);
   border-radius: 25px;
@@ -467,6 +438,7 @@ aside {
   padding: 5%;
 }
 
+/*Import de los FORMULARIOS INGRESAR, REGISTRARSE Y CONTACTANOS*/
 @media screen and (min-width: 1200px) {
   header {
     flex-direction: row;
@@ -515,11 +487,6 @@ aside {
   .titulo-recientes h2 {
     margin-left: 13%;
     font-size: 4.5rem;
-  }
-  .subir-arriba a {
-    top: 90vh;
-    font-size: 55px;
-    margin: 25px;
   }
   #acerca-texto {
     padding: 5%;
@@ -580,4 +547,5 @@ aside {
   .navbar {
     display: none;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*Import de los MEDIAQUERIS*//*# sourceMappingURL=style.css.map */

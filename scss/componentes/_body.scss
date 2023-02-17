@@ -6,6 +6,6 @@ body {
 	min-height: 100vh;
 	display: grid;
 	grid-template-columns: 15fr 1fr;
-	grid-template-areas: "encabezado encabezado" "main aside" "pie_de_pagina pie_de_pagina";
+	grid-template-areas: "encabezado" "main" "pie_de_pagina";
 	overflow-x: hidden;
 }

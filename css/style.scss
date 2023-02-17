@@ -1,20 +1,19 @@
-@import "../scss/utilidades/variables/colores";
-@import "../scss/utilidades/variables/fuentes";
-@import "../scss/utilidades/mixins/animacion_gradiente";
-@import "../scss/componentes/keyframes";
-@import "../scss/normalize/reset";
-@import "../scss/componentes/body";
-@import "../scss/componentes/header";
-@import "../scss/componentes/logo";
-@import "../scss/componentes/navegracion";
-@import "../scss/layout/grid";
-@import "../scss/layout/flex";
-@import "../scss/componentes/texto";
-@import "../scss/componentes/card";
-@import "../scss/componentes/footer";
-@import "../scss/componentes/menu-lista";
-@import "../scss/componentes/aside";
-@import "../scss/componentes/ids";
-@import "../scss/componentes/btn";
-@import "../scss/componentes/form";
-@import "../scss/views/mediaq";
+@import "../scss/utilidades/variables/colores"; /*Import de Variables de COLORES*/
+@import "../scss/utilidades/variables/fuentes";/*Import de Variables de Fuentes*/
+@import "../scss/utilidades/mixins/animacion_gradiente";/*Import de Mixins de la Animaciond de fondo*/
+@import "../scss/componentes/keyframes";/*Import de Los Keyframes*/
+@import "../scss/normalize/reset";/*Import del RESET*/
+@import "../scss/componentes/body";/*Import deL body general*/
+@import "../scss/componentes/header";/*Import del HEADER*/
+@import "../scss/componentes/logo";/*Import deL LOGO*/
+@import "../scss/componentes/navegracion";/*Import de la NAVEGACION*/
+@import "../scss/layout/grid";/*Import del Layout del GRID*/
+@import "../scss/layout/flex";/*Import del Layout de FLEX*/
+@import "../scss/componentes/texto";/*Import de los TEXTOS*/
+@import "../scss/componentes/card";/*Import de los CARDS*/
+@import "../scss/componentes/footer";/*Import del FOOTER*/
+@import "../scss/componentes/menu-lista";/*Import deL menu lista de PRODUCTOS*/
+@import "../scss/componentes/ids";/*Import de los IDS #*/
+@import "../scss/componentes/btn";/*Import de los BOTONES*/
+@import "../scss/componentes/form";/*Import de los FORMULARIOS INGRESAR, REGISTRARSE Y CONTACTANOS*/
+@import "../scss/views/mediaq";/*Import de los MEDIAQUERIS*/
