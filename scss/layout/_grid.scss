@@ -1,7 +1,10 @@
+
+/*MAIN GENERAL*/
 main {
 	grid-area: main;
 }
 
+/*FOOTER GENERAL*/
 footer {
 	grid-area: pie_de_pagina;
 	background-color: $background-color_3;
@@ -13,6 +16,3 @@ footer {
 	margin-top: 5rem;
 }
 
-aside {
-	grid-area: aside;
-}

@@ -1,4 +1,5 @@
-
+/*FOOTER GENERAL*/
+/*contenido del footer*/
 .footer-content {
 	display: flex;
 	align-items: center;
@@ -6,6 +7,7 @@
 	flex-direction: column;
 	text-align: center;
 }
+/*los links e iconos del footer*/
 .socials {
 	list-style: none;
 	display: flex;
@@ -28,6 +30,7 @@
 		}
 	}
 }
+/*el copyright*/
 .footer-bottom {
 	background: rgba(0, 0, 0, 0.344);
 	width: 100vw;

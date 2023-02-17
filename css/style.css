@@ -1,3 +1,4 @@
+/*KEYFRAMES Y CLASS DEL FONDO DE PANTALLA*/
 @keyframes gradient {
   0% {
     background-position: 0% 0%;
@@ -50,6 +51,7 @@
   opacity: 0.9;
 }
 
+/*EL RESET*/
 * {
   margin: 0;
   padding: 0;
@@ -57,6 +59,7 @@
   font-family: "Oswald", sans-serif;
 }
 
+/*EL BODY GENERAL*/
 body {
   background: radial-gradient(circle, rgb(34, 108, 91) 0%, rgb(101, 9, 121) 35%, rgb(147, 88, 56) 59%, rgb(50, 210, 244) 100%);
   animation: gradient 25s ease infinite;
@@ -71,6 +74,7 @@ body {
   overflow-x: hidden;
 }
 
+/*HEADER GENERAL*/
 header { /*el fondo me salio re piola*/
   background: radial-gradient(circle, rgb(34, 108, 91) 0%, rgb(101, 9, 121) 35%, rgb(147, 88, 56) 59%, rgb(50, 210, 244) 100%);
   animation: gradient 25s ease infinite;
@@ -97,6 +101,7 @@ header nav ul li a {
   font-size: x-large;
 }
 
+/*LOGO DEL HEADER*/
 .logoBoxTM {
   display: flex;
   text-decoration: none;
@@ -115,6 +120,7 @@ header nav ul li a {
   font-size: 70px;
 }
 
+/*BARRA DE NAVEGACION*/
 .navegacion1 {
   width: 100%;
   display: none;
@@ -132,6 +138,7 @@ header nav ul li a {
   width: 100%;
 }
 
+/*animacion hover de barra de navegacion*/
 .nav-hover {
   display: flex;
   opacity: 0.6;
@@ -143,14 +150,17 @@ header nav ul li a {
   opacity: 2;
 }
 
+/*offcanvas*/
 .offcanvas {
   background-color: rgba(95, 92, 92, 0.824);
 }
 
+/*MAIN GENERAL*/
 main {
   grid-area: main;
 }
 
+/*FOOTER GENERAL*/
 footer {
   grid-area: pie_de_pagina;
   background-color: rgba(17, 17, 17, 0.028);
@@ -162,10 +172,7 @@ footer {
   margin-top: 5rem;
 }
 
-aside {
-  grid-area: aside;
-}
-
+/*Presentacion*/
 .presentacion {
   display: flex;
   justify-content: center;
@@ -179,6 +186,7 @@ aside {
   width: 90%;
 }
 
+/*Novedades*/
 .novedades {
   position: relative;
   display: flex;
@@ -187,6 +195,7 @@ aside {
   margin-top: 20px;
 }
 
+/*Contenedor de los cards*/
 .imagenes-gridd {
   background-color: rgba(231, 222, 222, 0.041);
   border-radius: 30px;
@@ -198,6 +207,7 @@ aside {
   margin-top: 20px;
 }
 
+/*comentarios*/
 .comentarios {
   display: flex;
   flex-direction: column;
@@ -215,6 +225,7 @@ aside {
   font-size: 20px;
 }
 
+/*TEXTO PRINCIPAL*/
 .texto-grande {
   font-size: 4rem;
   letter-spacing: 0.5rem;
@@ -237,6 +248,7 @@ aside {
   padding: 20px;
 }
 
+/*TEXTO DE INDEX*/
 .novedades-texto {
   font-size: 4rem;
   font-weight: 600;
@@ -244,6 +256,7 @@ aside {
   font-family: "Playfair Display", serif;
 }
 
+/*TEXTO DE PRODUCTOS*/
 .titulo-recientes {
   justify-content: center;
 }
@@ -257,6 +270,7 @@ aside {
   text-align: center;
 }
 
+/*TEXTO DE NOSOTROS*/
 .nuestro-equipo-texto {
   display: flex;
   flex-wrap: wrap;
@@ -288,6 +302,7 @@ aside {
   margin: 10% 0 0 15%;
 }
 
+/*LOS CARDS DEL PROYECTO*/
 .card {
   display: flex;
   flex-direction: column;
@@ -300,10 +315,6 @@ aside {
   height: 80%;
 }
 
-#guitarra {
-  width: 77%;
-}
-
 .card-body {
   color: #fff;
 }
@@ -312,6 +323,8 @@ aside {
   color: rgb(0, 0, 0);
 }
 
+/*FOOTER GENERAL*/
+/*contenido del footer*/
 .footer-content {
   display: flex;
   align-items: center;
@@ -320,6 +333,7 @@ aside {
   text-align: center;
 }
 
+/*los links e iconos del footer*/
 .socials {
   list-style: none;
   display: flex;
@@ -341,6 +355,7 @@ aside {
   color: #7f4078;
 }
 
+/*el copyright*/
 .footer-bottom {
   background: rgba(0, 0, 0, 0.344);
   width: 100vw;
@@ -353,6 +368,7 @@ aside {
   text-transform: capitalize;
 }
 
+/*MENU DE ATAJOS EN PRODUCTOS*/
 .menu-lista {
   background-color: rgba(255, 255, 255, 0.0745098039);
   border-radius: 35px;
@@ -368,6 +384,7 @@ aside {
   padding: 2px;
 }
 
+/*LOS BOTONES DEL PROYECTO*/
 .boton-iniciar {
   border: none;
   outline: none;
@@ -410,6 +427,7 @@ aside {
   opacity: 2;
 }
 
+/*FORMULARIOS*/
 .formulario-inicio {
   background-color: rgba(255, 255, 255, 0.06);
   border-radius: 25px;
@@ -425,6 +443,7 @@ aside {
   padding: 5%;
 }
 
+/*MEDIAQUERIS DE DESKTOP*/
 @media screen and (min-width: 1200px) {
   header {
     flex-direction: row;
